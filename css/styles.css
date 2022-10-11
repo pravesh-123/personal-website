@@ -72,6 +72,8 @@ hr {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+    /* width: max-content; */
+    width: 100%;
     
 }
 .middle-container {
@@ -89,7 +91,7 @@ hr {
     text-align: left;
 }
 
-.bottom-cloud {
+/* .bottom-cloud {
     position: absolute;
     left: 250px;
     bottom: 300px;
@@ -97,13 +99,15 @@ hr {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 40px;
-}
+    top: 40px; */
+/* } */
 .profile-img {
-   height: 100px;
-   width: 100px;
-   
+   height: 150px;
+   width: 150px;
+   border-radius: 14px;
 }
+   
+
 .node-img {
     float: left;
     margin-right: 30px;
@@ -168,4 +172,16 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .project-section{
+    display: flex;
+    margin-left: 50px;
+}
+
+  @media screen and (min-width: 480px) {
+    .project-section{
+        display: flex;
+     margin-left: 372px;
+    }
   }
